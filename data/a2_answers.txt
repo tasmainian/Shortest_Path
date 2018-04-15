@@ -1,0 +1,34 @@
+Tasmiha Hassan		hassat3		400083305
+
+3.1 Analysis
+Q: Identify what type of graph to use to solve this problem. What do the nodes of the graph represent?
+What do edges represent? Describe how you can use the graph and the algorithms below to solve
+the given problem.
+
+A: The type of graph that I would use is an edge weighted digraph. By having a weighted to each edge that
+connects two vertices, it can hold the prices between each city. The nodes of the graph represent the cities
+in the US. Each city holds a lot of data such as longitude, latitude, whether is had certain restaurant, and other cities
+that are connected to it. The edges of the graph represent the prices of the cheapest meal you can get at each 
+city. I can use the graph to create all the connections between the nodes, and store the prices between each. 
+Then I'd pass this graph to the Dijkstra's shortest path algorithm, to find the cheapest path from a chosen
+starting city to a chosen ending city.
+
+3.2 BFS vs DFS
+Q: Which algorithm found the result in fewer steps? Will this remain true if the number of stops
+increases? Why or why not?
+
+A: BFS found the result in fewer steps. This will remain relatively true, if the number of stops increases
+as well. This is because BFS searches all the children of a parents before doing down to the next layer
+whereas DFS goes down to the bottom layer, til it hits  a dead end, and backtracks. Therefore, BFS will most
+likely have a shorter path each time, since it check all options in every stop before proceeding.
+
+
+3.4 Shortest Path
+Q:What is the complexity of this problem? Justify your answer. Will the complexity remain the same if
+the number of cities increases? What if the number of stops is increased? The number of
+restaurants? Why or why not?
+
+A: The complexity of Djikstra's shortest path algorithm is O(ElogV). Yes, it will remain the same if 
+the number of cities, stops, and/or restaurants increases. The complexity is determined by its edges 
+the the size of PQ. However, when increasing these factors, Dijkstras algorithm will always maintain 
+the same complexity. Perhaps the runtime will increase, but other factors should not be affected.

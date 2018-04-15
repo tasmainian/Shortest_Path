@@ -1,0 +1,12 @@
+BFS: BOSTON, NEW YORK CITY, PITTSBURGH, COLUMBUS, CHICAGO, MINNEAPOLIS
+DFS: BOSTON, NEW YORK CITY, PITTSBURGH, COLUMBUS, CHICAGO, ST. LOUIS, KANSAS CITY, MINNEAPOLIS
+
+City					Restaurant					Meal					Price
+
+BOSTON					--------------			--------------			--------------
+NEW YORK CITY					McDonald's				McChicken - Meal					3.79
+PITTSBURGH					McDonald's				Double Cheeseburger - Meal					4.38
+COLUMBUS					McDonald's				McChicken - Meal					3.79
+CHICAGO					McDonald's				Double Cheeseburger - Meal					4.38
+MINNEAPOLIS					McDonald's				McChicken - Meal					3.79
+Total																			20.13
